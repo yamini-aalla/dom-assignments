@@ -1,0 +1,41 @@
+#dropdown{
+	background-color: orange;
+	position: relative;
+	
+	display: inline-block;
+	
+}
+#dropbtn{
+	background-color: orange;
+	color: white;
+	border:none;
+}
+#droplink{
+	position: absolute;
+	display: none;
+}
+#droplink a{
+	display: block;
+	color: black;
+
+}
+
+#droplink:hover #first{
+	color: green;
+
+}
+#droplink:hover #second{
+	display: none;
+}
+#droplink #three{
+	display: none;
+}
+#droplink:hover #three{
+	display: block;
+	color: grey;
+}
+
+#dropdown:hover #droplink{
+	display: block;
+
+}

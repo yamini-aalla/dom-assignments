@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="editdom.js"></script>
+	<link rel="stylesheet" type="text/css" href="editdom.css">
+</head>
+<body>
+		<div id="form_div">
+				First_name:<input type="text" id="fname"><br>
+				Last_name:<input type="text" id="lname"><br>
+				Gender:<br>
+				male:<input type="radio" id="male"><br>
+				female:<input type="radio" id="female"><br>
+				state:<select id="states">
+					<option></option>
+					<option>california</option>
+					<option>colorado</option>
+					<option>texas</option>
+				</select><br><br><br><br><br><br><br>
+				<button onclick="save()"> save</button>							
+		</div>
+		<div id="value_div">
+			<p id="p1"></p>
+			<p id="p2"></p>
+			<p id="p3"></p>
+			<p id="p4"></p>
+
+			<button onclick="edit()" id="btn">EDit</button>
+		</div>
+
+</body>
+</html>
